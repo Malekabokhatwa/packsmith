@@ -1,0 +1,14 @@
+{
+  "models": ["scripted-model"],
+  "delayMs": 20,
+  "turns": [
+    { "text": "Building a small Fabric 1.21.1 pack with Waystones, then proving it.", "toolCalls": [{ "name": "create_instance", "arguments": { "name": "Waystone Test", "mc_version": "1.21.1", "loader": "fabric" } }] },
+    { "toolCalls": [{ "name": "download_file", "arguments": { "instance_id": "packsmith-1.21.1-waystone-test", "project_id": "waystones", "reason": "fast travel between waystones" } }] },
+    { "toolCalls": [{ "name": "launch_test", "arguments": { "instance_id": "packsmith-1.21.1-waystone-test" } }] },
+    { "text": "**Waystone Test** is built and the server test loaded a world: Fabric, Minecraft 1.21.1.\n\n- {{mod:LOpKHB2A}} - fast travel\n- {{mod:MBAkmtvl}} {{mod:P7dR8mSH}} - libraries it needs\n\nNot verified: the client and gameplay.", "toolCalls": [] },
+    { "text": "Let me boot it and read what breaks.", "toolCalls": [{ "name": "launch_test", "arguments": { "instance_id": "packsmith-1.21.1-waystone-test" } }] },
+    { "text": "The boot log says Waystones needs Balm, which is missing. Adding it back.", "toolCalls": [{ "name": "download_file", "arguments": { "instance_id": "packsmith-1.21.1-waystone-test", "project_id": "balm", "reason": "required by Waystones, named in the boot log" } }] },
+    { "toolCalls": [{ "name": "launch_test", "arguments": { "instance_id": "packsmith-1.21.1-waystone-test" } }] },
+    { "text": "Fixed: **Balm** was missing. The server test now loads a world again.\n\nNot verified: the client and gameplay.", "toolCalls": [] }
+  ]
+}

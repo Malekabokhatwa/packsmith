@@ -1,0 +1,4 @@
+[12:00:00] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.20.1
+[12:00:00] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+	 - Mod 'Embeddium' (embeddium) 1.0.11 is incompatible with any version of mod 'Sodium' (sodium), but a matching version is present: 0.6.13!

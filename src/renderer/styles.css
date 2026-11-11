@@ -1,0 +1,86 @@
+@import "@fontsource/ibm-plex-sans/400.css";
+@import "@fontsource/ibm-plex-sans/500.css";
+@import "@fontsource/ibm-plex-sans/600.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+/* packsmith tokens. Source of truth: replica/design/tokens.json (run contrast.py after any change).
+   Tailwind 4 reads the @theme block: classes like bg-surface, text-muted, border-input,
+   rounded-md, font-mono come from here. Components never use raw hex. */
+@import "tailwindcss";
+
+@theme static {
+  --color-bg: #13161a;
+  --color-surface: #1b1f25;
+  --color-surface-2: #232830;
+  --color-border: #2d333c;
+  --color-input: #6b7380;          /* border-input */
+  --color-text: #ebe8e2;
+  --color-muted: #a9afb8;          /* text-muted */
+  --color-subtle: #8a919c;         /* text-subtle */
+  --color-accent: #ff8f3f;
+  --color-accent-hover: #ffa560;
+  --color-on-accent: #1f1006;
+  --color-focus: #ffb37a;
+  --color-verified: #4fc2a6;
+  --color-on-verified: #06201a;
+  --color-danger: #ff6b5e;
+  --color-warning: #e6c34f;
+  --color-info: #7fb2ff;
+
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --text-xs: 12px;   --text-xs--line-height: 16px;
+  --text-sm: 13px;   --text-sm--line-height: 20px;
+  --text-base: 15px; --text-base--line-height: 22px;
+  --text-lg: 18px;   --text-lg--line-height: 26px;
+  --text-xl: 24px;   --text-xl--line-height: 30px;
+  --text-display: 32px; --text-display--line-height: 38px;
+  --text-mono-sm: 12.5px; --text-mono-sm--line-height: 18px;
+
+  --spacing: 4px;   /* p-1 = 4px, p-4 = 16px ... matches the 4px scale */
+
+  --radius-xs: 3px;
+  --radius-sm: 5px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  --shadow-pop: 0 16px 40px rgba(0,0,0,.45), 0 0 0 1px #2d333c;
+  --shadow-glow: 0 0 0 1px rgba(255,143,63,.55), 0 0 18px rgba(255,143,63,.25);
+
+  --ease-forge: cubic-bezier(.2,.8,.2,1);
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+}
+
+:root {
+  --rail: 64px;
+  --list-pane: 280px;
+  --inspector: 340px;
+  --content-max: 760px;
+  --header: 48px;
+  color-scheme: dark;
+}
+
+
+
+/* One focus style everywhere: 2px ring, offset, keyboard only. */
+@layer base {
+  :focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; transition-duration: 1ms !important; }
+}
+
+/* Base element styles live in the base layer so Tailwind utilities (utilities layer) always
+   win over them. Unlayered rules would override every utility class. */
+@layer base {
+  html, body { background: var(--color-bg); color: var(--color-text); font-family: var(--font-sans); font-size: 15px; line-height: 22px; }
+  html, body, #root { height: 100%; margin: 0; }
+  body { -webkit-font-smoothing: antialiased; overflow: hidden; }
+  button, input, select, textarea { font: inherit; color: inherit; }
+}
+::selection { background: rgba(255, 143, 63, .35); }
+@keyframes ps-pulse { 50% { box-shadow: 0 0 0 5px rgba(255, 143, 63, .15); } }
+@keyframes ps-shimmer { 0% { opacity: .55; } 50% { opacity: .9; } 100% { opacity: .55; } }
+.ps-skeleton { animation: ps-shimmer 1.6s ease-in-out infinite; }

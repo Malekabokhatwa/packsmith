@@ -1,0 +1,19 @@
+[22:04:20] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.20.1
+[22:04:20] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[22:04:21] [main/WARN]: Mod resolution failed
+[22:04:21] [main/INFO]: Immediate reason: [NEG_HARD_DEP xmxw 2.12.1+1.21.1-fabric {breaks xaerominimap @ [>=26.2.0]}, ROOT_FORCELOAD_SINGLE xaerominimap 26.6.0, ROOT_FORCELOAD_SINGLE xmxw 2.12.1+1.21.1-fabric]
+[22:04:21] [main/INFO]: Reason: [NEG_HARD_DEP xmxw 2.12.1+1.21.1-fabric {breaks xaerominimap @ [>=26.2.0]}]
+[22:04:21] [main/INFO]: Fix: add [], remove [], replace [[xmxw 2.12.1+1.21.1-fabric] -> add:xmxw 1 ([(-∞,∞)])]
+[22:04:21] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace mod 'Xaero's Maps x Waystones' (xmxw) 2.12.1+1.21.1-fabric with any version that is compatible with:
+		 - xaerominimap 26.6.0
+More details:
+	 - Mod 'Xaero's Maps x Waystones' (xmxw) 2.12.1+1.21.1-fabric is incompatible with version 26.2.0 or later of mod 'Xaero's Minimap' (xaerominimap), yet a conflicting version is present: 26.6.0!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66) [fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.20.1.jar:?]
+Process mc-client-fabric/1.21.1 failed with code 1

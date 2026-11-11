@@ -1,0 +1,14 @@
+{
+  "models": ["scripted-model"],
+  "delayMs": 15,
+  "turns": [
+    { "text": "Here's what I'd build.", "toolCalls": [{ "name": "propose_plan", "arguments": { "name": "Trail Test", "mc_version": "1.21.1", "loader": "fabric", "picks": [{ "project_id": "1bokaNcj", "reason": "A minimap in the corner, with waypoints." }] } }] },
+    { "text": "Press **Forge it** to build this, or tell me what to change.", "toolCalls": [] },
+    { "toolCalls": [{ "name": "create_instance", "arguments": { "name": "Trail Test", "mc_version": "1.21.1", "loader": "fabric" } }] },
+    { "toolCalls": [{ "name": "download_file", "arguments": { "instance_id": "packsmith-1.21.1-trail-test", "version_id": "W4dcLcUs", "reason": "A minimap in the corner" } }] },
+    { "toolCalls": [{ "name": "write_file", "arguments": { "instance_id": "packsmith-1.21.1-trail-test", "relpath": "minecraft/options.txt", "content": "renderDistance:12\nparticles:0\n", "reason": "Start with a far view" } }] },
+    { "toolCalls": [{ "name": "write_file", "arguments": { "instance_id": "packsmith-1.21.1-trail-test", "relpath": "minecraft/options.txt", "content": "renderDistance = 8" } }] },
+    { "toolCalls": [{ "name": "write_file", "arguments": { "instance_id": "packsmith-1.21.1-trail-test", "relpath": "minecraft/options.txt", "content": "renderDistance:8\nparticles:2\n", "reason": "Lower the render distance" } }] },
+    { "text": "**Trail Test** is built: Fabric, Minecraft 1.21.1.\n\n- **Xaero's Minimap**: the map in the corner\n- **Fabric API**: the library it needs\n- Render distance set to 8\n\nNot done yet: the pack hasn't been test-booted.", "toolCalls": [] }
+  ]
+}

@@ -1,0 +1,19 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[18:09:32] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.20.1
+[18:09:32] [main/WARN]: Mod resolution failed
+[18:09:32] [main/INFO]: Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED lithium 0.11.4 {depends minecraft @ [1.20.1]}, ROOT_FORCELOAD_SINGLE lithium 0.11.4]
+[18:09:32] [main/INFO]: Reason: [HARD_DEP lithium 0.11.4 {depends minecraft @ [1.20.1]}]
+[18:09:32] [main/INFO]: Fix: add [], remove [], replace [[minecraft 1.21.1] -> add:minecraft 1.20.1 ([[1.20.1,1.20.1]])]
+[18:09:32] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace 'Minecraft' (minecraft) 1.21.1 with version 1.20.1.
+More details:
+	 - Mod 'Lithium' (lithium) 0.11.4 requires version 1.20.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.1!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66) [fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.1.2]

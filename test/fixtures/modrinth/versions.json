@@ -1,0 +1,104 @@
+[
+ {
+  "game_versions": [
+   "1.21.1"
+  ],
+  "loaders": [
+   "fabric",
+   "quilt"
+  ],
+  "environment": "client_only_server_optional",
+  "id": "W4dcLcUs",
+  "project_id": "1bokaNcj",
+  "author_id": "ANNqL3WC",
+  "featured": false,
+  "name": "Xaero's Minimap 26.6.0",
+  "version_number": "fabric-1.21.1-26.6.0",
+  "changelog": "[Read changelogs](https://chocolateminecraft.com/update.php?mod_id=0)",
+  "changelog_url": null,
+  "date_published": "2026-10-05T07:42:26.768740Z",
+  "downloads": 605046,
+  "version_type": "release",
+  "status": "listed",
+  "requested_status": null,
+  "files": [
+   {
+    "id": "Isbn1avZ",
+    "hashes": {
+     "sha512": "bad6dfbdfa4fa83c10155380e44e7c7a181c86144cbb377548a3df94e1fdadb88a27dbf18dca89bf8748a49a1c485a03b458e1f74a7881029763297106ed26b7",
+     "sha1": "5fbb03dd3f22c0c3d5466d1366222d7d277a8df3"
+    },
+    "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/W4dcLcUs/xaerominimap-fabric-1.21.1-26.6.0.jar",
+    "filename": "xaerominimap-fabric-1.21.1-26.6.0.jar",
+    "primary": true,
+    "size": 2234556,
+    "file_type": null
+   }
+  ],
+  "dependencies": [
+   {
+    "version_id": null,
+    "project_id": "P7dR8mSH",
+    "file_name": null,
+    "dependency_type": "required"
+   },
+   {
+    "version_id": null,
+    "project_id": "gF3BGWvG",
+    "file_name": null,
+    "dependency_type": "optional"
+   }
+  ]
+ },
+ {
+  "game_versions": [
+   "1.21.1"
+  ],
+  "loaders": [
+   "fabric",
+   "quilt"
+  ],
+  "environment": "client_only_server_optional",
+  "id": "ZD6hK4GV",
+  "project_id": "1bokaNcj",
+  "author_id": "ANNqL3WC",
+  "featured": false,
+  "name": "Xaero's Minimap 26.5.0",
+  "version_number": "fabric-1.21.1-26.5.0",
+  "changelog": "[Read changelogs](https://chocolateminecraft.com/update.php?mod_id=0)",
+  "changelog_url": null,
+  "date_published": "2026-09-10T11:39:38.129289Z",
+  "downloads": 693614,
+  "version_type": "release",
+  "status": "listed",
+  "requested_status": null,
+  "files": [
+   {
+    "id": "j7VGB5bw",
+    "hashes": {
+     "sha512": "0064c7f0a947717e8cdc22f83ecea077dc9f38c3a83d699d6d5ff41bd7f02700e4ad9b012636369210f4f9dfee35e39b8aad340488448104aca45395642dd136",
+     "sha1": "b9cec1acb286b6d7c05759c0c1e4b8a04f28d785"
+    },
+    "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/ZD6hK4GV/xaerominimap-fabric-1.21.1-26.5.0.jar",
+    "filename": "xaerominimap-fabric-1.21.1-26.5.0.jar",
+    "primary": true,
+    "size": 2233763,
+    "file_type": null
+   }
+  ],
+  "dependencies": [
+   {
+    "version_id": null,
+    "project_id": "P7dR8mSH",
+    "file_name": null,
+    "dependency_type": "required"
+   },
+   {
+    "version_id": null,
+    "project_id": "gF3BGWvG",
+    "file_name": null,
+    "dependency_type": "optional"
+   }
+  ]
+ }
+]

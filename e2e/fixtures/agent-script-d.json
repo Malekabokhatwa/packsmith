@@ -1,0 +1,20 @@
+{
+  "models": ["scripted-model"],
+  "delayMs": 10,
+  "turns": [
+    { "toolCalls": [{ "name": "create_instance", "arguments": { "name": "Quest Trail", "mc_version": "1.21.1", "loader": "fabric" } }] },
+    { "toolCalls": [{ "name": "create_instance", "arguments": { "name": "Book Test", "mc_version": "1.21.1", "loader": "fabric" } }] },
+    { "text": "Made Quest Trail and Book Test.", "toolCalls": [] },
+    { "toolCalls": [{ "name": "find_ids", "arguments": { "instance_id": "packsmith-1.21.1-quest-trail", "kind": "item", "query": "log" } }] },
+    { "toolCalls": [{ "name": "write_quests", "arguments": { "instance_id": "packsmith-1.21.1-quest-trail", "engine": "heracles", "chapters": [{ "title": "Getting Started", "quests": [
+      { "key": "wood", "title": "Wood First", "tasks": [{ "kind": "item", "item": "minecraft:oak_logg", "count": 8 }] }
+    ] }] } }] },
+    { "toolCalls": [{ "name": "write_quests", "arguments": { "instance_id": "packsmith-1.21.1-quest-trail", "engine": "heracles", "chapters": [{ "title": "Getting Started", "quests": [
+      { "key": "wood", "title": "Wood First", "description": "Every base starts with a tree.", "tasks": [{ "kind": "item", "item": "#minecraft:logs", "count": 8 }], "rewards": [{ "kind": "xp", "amount": 10 }] },
+      { "key": "bench", "title": "A Bench", "tasks": [{ "kind": "item", "item": "minecraft:crafting_table" }], "after": ["wood"] },
+      { "key": "bread", "title": "Bread", "tasks": [{ "kind": "item", "item": "minecraft:bread", "count": 3 }], "after": ["wood"] },
+      { "key": "night", "title": "First Night", "tasks": [{ "kind": "kill", "entity": "minecraft:zombie" }], "rewards": [{ "kind": "item", "item": "minecraft:torch", "count": 4 }], "after": ["bench", "bread"] }
+    ] }] } }] },
+    { "text": "Wrote **Getting Started**: 4 quests for Heracles. They haven't been played in the game.", "toolCalls": [] }
+  ]
+}

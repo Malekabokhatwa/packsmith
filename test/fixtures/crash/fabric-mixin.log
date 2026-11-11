@@ -1,0 +1,2 @@
+[12:00:09] [main/ERROR]: Mixin apply for mod coolmod failed coolmod.mixins.json:LevelRendererMixin from mod coolmod -> net.minecraft.class_761: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure
+org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered

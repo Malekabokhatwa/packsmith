@@ -1,0 +1,9 @@
+{
+  "models": ["scripted-model"],
+  "delayMs": 100,
+  "turns": [
+    { "text": "Looking for a minimap on Modrinth first, then I will check which versions fit Fabric 1.21.1 before picking anything for the pack.", "toolCalls": [{ "name": "search_modrinth", "arguments": { "query": "xaero's minimap", "mc_version": "1.21.1", "loader": "fabric", "limit": 3 } }] },
+    { "text": "Picking up where I paused: checking the minimap's versions now.", "toolCalls": [{ "name": "get_versions", "arguments": { "project_id": "1bokaNcj", "mc_version": "1.21.1", "loader": "fabric" } }] },
+    { "text": "Xaero's Minimap has a build for Fabric 1.21.1. Nothing was installed.", "toolCalls": [] }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+ "_source": "api.modrinth.com v2, recorded 2026-11-03; versions filtered to fabric + 1.21.1, trimmed to 2 per project",
+ "projects": [
+  {
+   "id": "AANobbMI",
+   "slug": "sodium",
+   "title": "Sodium",
+   "description": "A high-performance rendering engine replacement for Minecraft, which greatly improves frame rates and reduces micro-stut",
+   "project_type": "mod",
+   "icon_url": "https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp",
+   "categories": [
+    "optimization"
+   ],
+   "client_side": "required",
+   "server_side": "unsupported",
+   "license": {
+    "id": "LicenseRef-Polyform-Shield-1.0.0"
+   }
+  },
+  {
+   "id": "PtjYWJkn",
+   "slug": "sodium-extra",
+   "title": "Sodium Extra",
+   "description": "A Sodium addon that adds features that shouldn't be in Sodium.",
+   "project_type": "mod",
+   "icon_url": "https://cdn.modrinth.com/data/PtjYWJkn/0df4fb22a11e1dcb5e83cb0aadd275b571aca7a9_96.webp",
+   "categories": [
+    "cursed",
+    "optimization",
+    "utility"
+   ],
+   "client_side": "required",
+   "server_side": "unsupported",
+   "license": {
+    "id": "LGPL-3.0-only"
+   }
+  },
+  {
+   "id": "LOpKHB2A",
+   "slug": "waystones",
+   "title": "Waystones",
+   "description": "Teleport from waystone to waystone or craft magical scrolls to warp.",
+   "project_type": "mod",
+   "icon_url": "https://cdn.modrinth.com/data/LOpKHB2A/d56c030a875582aff5bab477ddcfec317a1610f0_96.webp",
+   "categories": [
+    "adventure",
+    "magic",
+    "transportation"
+   ],
+   "client_side": "required",
+   "server_side": "required",
+   "license": {
+    "id": "LicenseRef-All-Rights-Reserved"
+   }
+  },
+  {
+   "id": "MBAkmtvl",
+   "slug": "balm",
+   "title": "Balm",
+   "description": "Abstraction Layer for Multi-Loader Mods",
+   "project_type": "mod",
+   "icon_url": "https://cdn.modrinth.com/data/MBAkmtvl/285b7bcfd6e525c043e640b08f3efc0cde90f7dd_96.webp",
+   "categories": [
+    "library"
+   ],
+   "client_side": "optional",
+   "server_side": "optional",
+   "license": {
+    "id": "LicenseRef-All-Rights-Reserved"
+   }
+  },
+  {
+   "id": "P7dR8mSH",
+   "slug": "fabric-api",
+   "title": "Fabric API",
+   "description": "Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric too",
+   "project_type": "mod",
+   "icon_url": "https://cdn.modrinth.com/data/P7dR8mSH/icon.png",
+   "categories": [
+    "library"
+   ],
+   "client_side": "optional",
+   "server_side": "optional",
+   "license": {
+    "id": "Apache-2.0"
+   }
+  }
+ ],
+ "versions": {
+  "LOpKHB2A": [
+   {
+    "id": "nSAwjAk4",
+    "project_id": "LOpKHB2A",
+    "version_number": "21.1.46+fabric-1.21.1",
+    "version_type": "release",
+    "loaders": [
+     "fabric"
+    ],
+    "date_published": "2026-09-25T06:00:07.869983Z",
+    "dependencies": [
+     {
+      "version_id": null,
+      "project_id": "P7dR8mSH",
+      "file_name": null,
+      "dependency_type": "required"
+     },
+     {
+      "version_id": null,
+      "project_id": "MBAkmtvl",
+      "file_name": null,
+      "dependency_type": "required"
+     }
+    ],
+    "game_versions": [
+     "1.21.1"
+    ],
+    "files": [
+     {
+      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/nSAwjAk4/waystones-fabric-1.21.1-21.1.46.jar",
+      "filename": "waystones-fabric-1.21.1-21.1.46.jar",
+      "primary": true,
+      "size": 1248666,
+      "hashes": {
+       "sha1": "2ef078e0e3409e3a97ec3fdc0cfd7db7ca34bc40",
+       "sha512": "b301a1afb7e13fe8a4a28330b0bd8c0da3eb829d85e50fc04fc86868388ecf3222d24ce49a361bbac2153ce3abf792d7c0dc91fc94022f5b4f5f214a0ef0e183"
+      }
+     }
+    ]
+   },
+   {
+    "id": "kcpLmG41",
+    "project_id": "LOpKHB2A",
+    "version_number": "21.1.45+fabric-1.21.1",
+    "version_type": "release",
+    "loaders": [
+     "fabric"
+    ],
+    "date_published": "2026-09-13T15:00:54.374986Z",
+    "dependencies": [
+     {
+      "version_id": null,
+      "project_id": "MBAkmtvl",
+      "file_name": null,
+      "dependency_type": "required"
+     },
+     {
+      "version_id": null,
+      "project_id": "P7dR8mSH",
+      "file_name": null,
+      "dependency_type": "required"
+     }
+    ],
+    "game_versions": [
+     "1.21.1"
+    ],
+    "files": [
+     {
+      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/kcpLmG41/waystones-fabric-1.21.1-21.1.45.jar",
+      "filename": "waystones-fabric-1.21.1-21.1.45.jar",
+      "primary": true,
+      "size": 1245242,
+      "hashes": {
+       "sha1": "1ffd74658cdfb000e4fe1a90b55d6c1bfd37b644",
+       "sha512": "02761245fbd0fbc86de77d0a2e1ebd7aebd2263e83a598246cc339a125df343a53583eb5e678eb11c913180feceafbe16d69ea2d88b4da65d57544162d2a1068"
+      }
+     }
+    ]
+   }
+  ],
+  "MBAkmtvl": [
+   {
+    "id": "HY6fKMHC",
+    "project_id": "MBAkmtvl",
+    "version_number": "21.0.67+fabric-1.21.1",
+    "version_type": "release",
+    "loaders": [
+     "fabric"
+    ],
+    "date_published": "2026-11-02T12:16:00.375961Z",
+    "dependencies": [
+     {
+      "version_id": null,
+      "project_id": "P7dR8mSH",
+      "file_name": null,
+      "dependency_type": "required"
+     }
+    ],
+    "game_versions": [
+     "1.21.1"
+    ],
+    "files": [
+     {
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/HY6fKMHC/balm-fabric-1.21.1-21.0.67.jar",
+      "filename": "balm-fabric-1.21.1-21.0.67.jar",
+      "primary": true,
+      "size": 808190,
+      "hashes": {
+       "sha1": "f839c990308271aa85f7d85b710a1d88388295a0",
+       "sha512": "186564af0d4e4d93dae479e5d86648e4adfd4bb46ba7fc5a3d11af38815220e4e558ad62073a7af1e4b63fd3f9636b9081db50a8eb80a1110a234eae0cbe2b63"
+      }
+     }
+    ]
+   },
+   {
+    "id": "EghJxg4h",
+    "project_id": "MBAkmtvl",
+    "version_number": "21.0.66+fabric-1.21.1",
+    "version_type": "release",
+    "loaders": [
+     "fabric"
+    ],
+    "date_published": "2026-09-25T05:57:55.797553Z",
+    "dependencies": [
+     {
+      "version_id": null,
+      "project_id": "P7dR8mSH",
+      "file_name": null,
+      "dependency_type": "required"
+     }
+    ],
+    "game_versions": [
+     "1.21.1"
+    ],
+    "files": [
+     {
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/EghJxg4h/balm-fabric-1.21.1-21.0.66.jar",
+      "filename": "balm-fabric-1.21.1-21.0.66.jar",
+      "primary": true,
+      "size": 805265,
+      "hashes": {
+       "sha1": "37266aadaed39205f4a3844930e76d2eebb866a4",
+       "sha512": "cf0df4ff300fdd1c7b1cfdb952fbbe0f6af06b87175d8d87bbbb63073d62abe2e4085aea4bd590149fd5906a32f3eb424cb5526cc332937ab449c8f6a9bd41e4"
+      }
+     }
+    ]
+   }
+  ],
+  "P7dR8mSH": [
+   {
+    "id": "Mys3P7lK",
+    "project_id": "P7dR8mSH",
+    "version_number": "0.116.17+1.21.1",
+    "version_type": "release",
+    "loaders": [
+     "fabric"
+    ],
+    "date_published": "2026-09-01T16:40:04.373428Z",
+    "dependencies": [],
+    "game_versions": [
+     "1.21.1"
+    ],
+    "files": [
+     {
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
+      "filename": "fabric-api-0.116.17+1.21.1.jar",
+      "primary": true,
+      "size": 2452735,
+      "hashes": {
+       "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c",
+       "sha512": "98c478217da19181f0e4df3ea6c2da6bdbda271c7544a4aea048513a49b444f1ff5b71dc0df6303017c48e8ff69b7bb6af6179bdf0d0e09ab3c1ee08411857a8"
+      }
+     }
+    ]
+   },
+   {
+    "id": "fpB2VatZ",
+    "project_id": "P7dR8mSH",
+    "version_number": "0.116.16+1.21.1",
+    "version_type": "release",
+    "loaders": [
+     "fabric"
+    ],
+    "date_published": "2026-09-01T10:29:57.072338Z",
+    "dependencies": [],
+    "game_versions": [
+     "1.21.1"
+    ],
+    "files": [
+     {
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/fpB2VatZ/fabric-api-0.116.16%2B1.21.1.jar",
+      "filename": "fabric-api-0.116.16+1.21.1.jar",
+      "primary": true,
+      "size": 2467467,
+      "hashes": {
+       "sha1": "07fcbd957f45592ac3ac63161b0bf4f0b724c665",
+       "sha512": "1ee763b538619b917b3bf02568dd2fb6c4ca3dc98e5554dc944e4524c316437946b00b6c1c4597ca86871f820b894c4b7b2b5701f7479e2dd057b0ea947886df"
+      }
+     }
+    ]
+   }
+  ],
+  "AANobbMI": [
+   {
+    "id": "SMxNOGZ6",
+    "project_id": "AANobbMI",
+    "version_number": "mc1.21.1-0.8.13-fabric",
+    "version_type": "release",
+    "loaders": [
+     "fabric"
+    ],
+    "date_published": "2026-08-28T20:55:02.424329Z",
+    "dependencies": [],
+    "game_versions": [
+     "1.21.1"
+    ],
+    "files": [
+     {
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/SMxNOGZ6/sodium-fabric-0.8.13%2Bmc1.21.1.jar",
+      "filename": "sodium-fabric-0.8.13+mc1.21.1.jar",
+      "primary": true,
+      "size": 1574609,
+      "hashes": {
+       "sha1": "003c114c85ca88ef3362e018deb6aca0c682d6a1",
+       "sha512": "8614a374593698069a80ac74de8cd9c28f3928d16819a0e0d6320b538e823f7e54e8be06d5ea5a9c268beb0e02073209d1f831a02dede851588b972367680853"
+      }
+     }
+    ]
+   },
+   {
+    "id": "QV48eyCs",
+    "project_id": "AANobbMI",
+    "version_number": "mc1.21.1-0.8.13-beta.2-fabric",
+    "version_type": "beta",
+    "loaders": [
+     "fabric"
+    ],
+    "date_published": "2026-08-07T00:56:44.021284Z",
+    "dependencies": [],
+    "game_versions": [
+     "1.21.1"
+    ],
+    "files": [
+     {
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/QV48eyCs/sodium-fabric-0.8.13-beta.2%2Bmc1.21.1.jar",
+      "filename": "sodium-fabric-0.8.13-beta.2+mc1.21.1.jar",
+      "primary": true,
+      "size": 1574596,
+      "hashes": {
+       "sha1": "d01f2112698d08b052d042c68c1206af790e660a",
+       "sha512": "1bbde2b1c11cbaba4742c321dbeff686c9a792984868f3e32b1e744e90f5a3e0b2a60eaaaf288c68fb454196806b755fe7df468e354777b8f58436058af51256"
+      }
+     }
+    ]
+   }
+  ],
+  "PtjYWJkn": [
+   {
+    "id": "CmiqMBZT",
+    "project_id": "PtjYWJkn",
+    "version_number": "mc1.21.1-0.9.5+fabric",
+    "version_type": "release",
+    "loaders": [
+     "fabric"
+    ],
+    "date_published": "2026-10-25T16:34:23.573347Z",
+    "dependencies": [
+     {
+      "version_id": null,
+      "project_id": "EE4vxUHj",
+      "file_name": null,
+      "dependency_type": "optional"
+     },
+     {
+      "version_id": null,
+      "project_id": "Bh37bMuy",
+      "file_name": null,
+      "dependency_type": "optional"
+     },
+     {
+      "version_id": null,
+      "project_id": "YL57xq9U",
+      "file_name": null,
+      "dependency_type": "optional"
+     },
+     {
+      "version_id": null,
+      "project_id": "AANobbMI",
+      "file_name": null,
+      "dependency_type": "required"
+     }
+    ],
+    "game_versions": [
+     "1.21.1"
+    ],
+    "files": [
+     {
+      "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/CmiqMBZT/sodium-extra-fabric-0.9.5%2Bmc1.21.1.jar",
+      "filename": "sodium-extra-fabric-0.9.5+mc1.21.1.jar",
+      "primary": true,
+      "size": 492939,
+      "hashes": {
+       "sha1": "39df00f8a5baeeeff4bf0226997e958d89fe0c93",
+       "sha512": "2587475562472b7e5cdc8c2b4409de498815402156524242acbad9672a0c348288b9b3328ec82b9300593d1a02eb71022704742889e5b33b755f75709cf16827"
+      }
+     }
+    ]
+   },
+   {
+    "id": "YEWu6red",
+    "project_id": "PtjYWJkn",
+    "version_number": "mc1.21.1-0.9.4+fabric",
+    "version_type": "release",
+    "loaders": [
+     "fabric"
+    ],
+    "date_published": "2026-09-16T02:17:34.868883Z",
+    "dependencies": [
+     {
+      "version_id": null,
+      "project_id": "EE4vxUHj",
+      "file_name": null,
+      "dependency_type": "optional"
+     },
+     {
+      "version_id": null,
+      "project_id": "YL57xq9U",
+      "file_name": null,
+      "dependency_type": "optional"
+     },
+     {
+      "version_id": null,
+      "project_id": "Bh37bMuy",
+      "file_name": null,
+      "dependency_type": "optional"
+     },
+     {
+      "version_id": null,
+      "project_id": "AANobbMI",
+      "file_name": null,
+      "dependency_type": "required"
+     }
+    ],
+    "game_versions": [
+     "1.21.1"
+    ],
+    "files": [
+     {
+      "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/YEWu6red/sodium-extra-fabric-0.9.4%2Bmc1.21.1.jar",
+      "filename": "sodium-extra-fabric-0.9.4+mc1.21.1.jar",
+      "primary": true,
+      "size": 472019,
+      "hashes": {
+       "sha1": "628487b330c9589d26cada5c4a51ac457af80a1f",
+       "sha512": "824b06ddaa7ab697ff252ee47c6278725fc2ed6eeaaa027c32c0ee8bbb9ab416c23dfdd3c89a2ca7f4618cb106ef55694a6163cd09abc248219d14e9eca3d7d3"
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

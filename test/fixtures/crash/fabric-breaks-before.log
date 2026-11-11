@@ -1,0 +1,20 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[03:22:14] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.20.1
+[03:22:15] [main/WARN]: Mod resolution failed
+[03:22:15] [main/INFO]: Immediate reason: [NEG_HARD_DEP xaeroworldmap 1.47.0 {breaks xaerominimap @ [<26.4.0]}, ROOT_FORCELOAD_SINGLE xaerominimap 26.1.0, ROOT_FORCELOAD_SINGLE xaeroworldmap 1.47.0]
+[03:22:15] [main/INFO]: Reason: [NEG_HARD_DEP xaeroworldmap 1.47.0 {breaks xaerominimap @ [<26.4.0]}]
+[03:22:15] [main/INFO]: SERVER environment disabled: [fabric-model-loading-api-v1, fabric-renderer-api-v1, fabric-keybindings-v0, fabric-renderer-registries-v1, fabric-client-tags-api-v1, fabric-sound-api-v1, fabric-rendering-v0, fabric-screen-api-v1, fabric-rendering-v1, fabric-key-binding-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1]
+[03:22:15] [main/INFO]: Fix: add [], remove [xaerominimap 26.1.0], replace []
+[03:22:15] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Remove mod 'Xaero's Minimap' (xaerominimap) 26.1.0 (/scratch/server/mods/xaerominimap-fabric-1.21.1-26.1.0.jar).
+More details:
+	 - Mod 'Xaero's World Map' (xaeroworldmap) 1.47.0 is incompatible with any version before 26.4.0 of mod 'Xaero's Minimap' (xaerominimap), yet a conflicting version is present: 26.1.0!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66) [fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [server-1.21.1-0.20.1-1.1.2.jar:1.1.2]

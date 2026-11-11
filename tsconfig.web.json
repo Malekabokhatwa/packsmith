@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "lib": ["es2023", "dom", "dom.iterable"],
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "types": [],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "paths": { "@shared/*": ["./src/shared/*"], "@renderer/*": ["./src/renderer/*"] }
+  },
+  "include": ["src/renderer/**/*", "src/shared/**/*", "src/preload/api.d.ts", "test/**/*.tsx"]
+}

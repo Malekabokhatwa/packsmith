@@ -1,0 +1,5 @@
+[12:00:01] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver]
+[12:00:04] [main/ERROR] [ne.mi.fm.lo.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'balm', Requested by: 'waystones', Expected range: '[21.0.0,)', Actual version: '[MISSING]'
+	Mod ID: 'balm', Requested by: 'trashslot', Expected range: '[21.0.0,)', Actual version: '[MISSING]'
+[12:00:04] [main/FATAL] [ne.mi.fm.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found

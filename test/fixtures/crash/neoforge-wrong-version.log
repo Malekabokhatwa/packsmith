@@ -1,0 +1,2 @@
+[12:00:04] [main/ERROR] [ne.mi.fm.lo.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'resourcefullib', Requested by: 'heracles', Expected range: '[3.0.9,)', Actual version: '3.0.2'

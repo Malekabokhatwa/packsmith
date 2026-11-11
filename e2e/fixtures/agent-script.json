@@ -1,0 +1,13 @@
+{
+  "models": ["scripted-model"],
+  "delayMs": 20,
+  "turns": [
+    { "text": "I'll make a small Fabric 1.21.1 pack with a minimap.", "toolCalls": [{ "name": "search_modrinth", "arguments": { "query": "xaero's minimap", "mc_version": "1.21.1", "loader": "fabric", "limit": 3 } }] },
+    { "toolCalls": [{ "name": "get_versions", "arguments": { "project_id": "1bokaNcj", "mc_version": "1.21.1", "loader": "fabric" } }] },
+    { "toolCalls": [{ "name": "create_instance", "arguments": { "name": "Agent Trail", "mc_version": "1.21.1", "loader": "fabric" } }] },
+    { "toolCalls": [{ "name": "download_file", "arguments": { "instance_id": "packsmith-1.21.1-agent-trail", "version_id": "W4dcLcUs" } }] },
+    { "toolCalls": [{ "name": "download_file", "arguments": { "instance_id": "packsmith-1.21.1-agent-trail", "version_id": "Mys3P7lK" } }] },
+    { "toolCalls": [{ "name": "download_file", "arguments": { "instance_id": "packsmith-1.21.1-agent-trail" } }] },
+    { "text": "**Agent Trail** is ready: Fabric, Minecraft 1.21.1.\n\n- **Xaero's Minimap**: the map in the corner\n- **Fabric API**: required by the minimap\n\nNot done yet: the pack hasn't been test-booted.", "toolCalls": [] }
+  ]
+}

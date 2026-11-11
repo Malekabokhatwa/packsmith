@@ -1,0 +1,24 @@
+# deps and build output
+node_modules/
+out/
+dist/
+*.tsbuildinfo
+
+# test output
+test-results/
+playwright-report/
+
+# never commit: keys, env, jars, logs, staging instances (spec 5.3, 9.6)
+.env*
+*.key
+*.pem
+*.jar
+*.log
+/staging/
+/instances/
+
+# AppImages are build output (dist/) or downloads: never committed
+*.AppImage
+
+# crash-log fixtures are test data (scratch paths redacted)
+!test/fixtures/crash/*.log

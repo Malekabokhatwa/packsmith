@@ -1,0 +1,13 @@
+{
+  "models": ["scripted-model"],
+  "delayMs": 15,
+  "turns": [
+    { "text": "Adding Fabric in place, then the minimap.", "toolCalls": [
+      { "name": "set_loader", "arguments": { "instance_id": "a-vanilla-world", "loader": "fabric" } },
+      { "name": "download_file", "arguments": { "instance_id": "a-vanilla-world", "version_id": "W4dcLcUs", "reason": "A minimap in the corner" } }
+    ] },
+    { "text": "**Vanilla World** now runs Fabric with Xaero's Minimap. Your world wasn't touched.", "toolCalls": [] },
+    { "toolCalls": [{ "name": "write_file", "arguments": { "instance_id": "a-vanilla-world", "relpath": "minecraft/options.txt", "content": "renderDistance:2\n", "reason": "Lower the render distance" } }] },
+    { "text": "I can't change Vanilla World any more: packsmith no longer manages it.", "toolCalls": [] }
+  ]
+}

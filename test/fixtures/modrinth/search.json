@@ -1,0 +1,153 @@
+{
+ "hits": [
+  {
+   "project_id": "1bokaNcj",
+   "project_type": "mod",
+   "all_project_types": [
+    "mod"
+   ],
+   "slug": "xaeros-minimap",
+   "author": "thexaero",
+   "author_id": "ANNqL3WC",
+   "organization": null,
+   "organization_id": null,
+   "title": "Xaero's Minimap",
+   "description": "Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help you find the locations you've marked.",
+   "categories": [
+    "adventure",
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt",
+    "transportation",
+    "utility"
+   ],
+   "display_categories": [
+    "adventure",
+    "fabric",
+    "forge",
+    "neoforge",
+    "quilt",
+    "transportation",
+    "utility"
+   ],
+   "versions": [
+    "1.7.10",
+    "1.8.9",
+    "1.12.2",
+    "1.14.4",
+    "1.15.2",
+    "1.16.2",
+    "1.16.3",
+    "1.16.4",
+    "1.16.5",
+    "1.17",
+    "1.17.1",
+    "1.18.2",
+    "1.19.1",
+    "1.19.2",
+    "1.19.3",
+    "1.19.4",
+    "1.20-rc1",
+    "1.20",
+    "1.20.1",
+    "1.20.2",
+    "1.20.3-rc1",
+    "1.20.3",
+    "1.20.4",
+    "1.20.5",
+    "1.20.6",
+    "1.21",
+    "1.21.1",
+    "1.21.3",
+    "1.21.4",
+    "1.21.5",
+    "1.21.6",
+    "1.21.7",
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2",
+    "26.3-rc-2",
+    "26.3-rc-3",
+    "26.3"
+   ],
+   "downloads": 123583172,
+   "follows": 19177,
+   "icon_url": "https://cdn.modrinth.com/data/1bokaNcj/354080f65407e49f486fcf9c4580e82c45ae63b8_96.webp",
+   "date_created": "2023-04-22T18:06:33.825340+00:00",
+   "date_modified": "2026-10-25T15:15:55.603082+00:00",
+   "latest_version": "W4dcLcUs",
+   "license": "LicenseRef-All-Rights-Reserved",
+   "client_side": "required",
+   "server_side": "optional",
+   "environment": [
+    "client_only_server_optional"
+   ],
+   "disclosure_types": [],
+   "gallery": [],
+   "featured_gallery": null,
+   "color": 3359430
+  },
+  {
+   "project_id": "V7BPfphg",
+   "project_type": "mod",
+   "all_project_types": [
+    "mod"
+   ],
+   "slug": "compass-to-map-xaeros",
+   "author": "KURONAMI",
+   "author_id": "nBinDQak",
+   "organization": null,
+   "organization_id": null,
+   "title": "Compass to Map: Xaero's Minimap",
+   "description": "Auto-register found structures (Explorer's Compass) and biomes (Nature's Compass) as permanent Xaero's Minimap waypoints. No prompt, no edit screen, the waypoint just appears.",
+   "categories": [
+    "adventure",
+    "fabric",
+    "forge",
+    "neoforge",
+    "utility"
+   ],
+   "display_categories": [
+    "adventure",
+    "fabric",
+    "forge",
+    "neoforge",
+    "utility"
+   ],
+   "versions": [
+    "1.20.1",
+    "1.21.1",
+    "1.21.4",
+    "1.21.8",
+    "1.21.11",
+    "26.1.2",
+    "26.2"
+   ],
+   "downloads": 54091,
+   "follows": 15,
+   "icon_url": "https://cdn.modrinth.com/data/V7BPfphg/0ea954f7ff20c15a9d059d392207886d5e21b310_96.webp",
+   "date_created": "2026-05-26T04:00:16.155093+00:00",
+   "date_modified": "2026-09-07T12:50:52.202072+00:00",
+   "latest_version": "nvbOrY7y",
+   "license": "LicenseRef-All-Rights-Reserved",
+   "client_side": "required",
+   "server_side": "required",
+   "environment": [
+    "client_and_server"
+   ],
+   "disclosure_types": [],
+   "gallery": [],
+   "featured_gallery": null,
+   "color": 6184798
+  }
+ ],
+ "offset": 0,
+ "limit": 2,
+ "total_hits": 15
+}

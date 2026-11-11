@@ -1,0 +1,2 @@
+[12:00:06] [main/ERROR] [ne.ne.fm.co.ConfigTracker/CONFIG]: Failed loading config file waystones-common.toml of type COMMON for modid waystones
+com.electronwill.nightconfig.core.io.ParsingException: Invalid bare key: ===

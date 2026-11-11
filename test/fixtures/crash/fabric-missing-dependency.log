@@ -1,0 +1,21 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[18:05:41] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.20.1
+[18:05:41] [main/WARN]: Mod resolution failed
+[18:05:41] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE waystones 21.1.46 {depends fabric-api @ [*]}, ROOT_FORCELOAD_SINGLE waystones 21.1.46]
+[18:05:41] [main/INFO]: Reason: [HARD_DEP waystones 21.1.46 {depends fabric-api @ [*]}, HARD_DEP waystones 21.1.46 {depends balm @ [*]}]
+[18:05:41] [main/INFO]: Fix: add [add:fabric-api 1 ([(-∞,∞)]), add:balm 1 ([(-∞,∞)])], remove [], replace []
+[18:05:41] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install fabric-api, any version.
+	 - Install balm, any version.
+More details:
+	 - Mod 'Waystones' (waystones) 21.1.46 requires any version of fabric-api, which is missing!
+	 - Mod 'Waystones' (waystones) 21.1.46 requires any version of balm, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:207) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66) [fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.20.1.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.1.2]
